@@ -1,0 +1,31 @@
+h2{ 
+    text-align: center;
+}
+#products{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    gap: 15px;
+    padding: 1rem 5rem;
+}
+.product{
+    box-shadow: 5px 5px 5px var(--primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    flex-direction: column;
+}
+.product:hover{
+    box-shadow: 5px 5px 5px var(--secondary);
+
+}
+button{
+    background-color: var(--secondary);
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: var(--primary);
+    color:rgb(19, 18, 18);
+}
